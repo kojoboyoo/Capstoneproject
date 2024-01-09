@@ -50,8 +50,11 @@ def Income_limit_home():
 @app.post("/predict", response_model=PredictionResult)
 
 def predict(data: InputData):
-    # Create a DataFrame using the fields from InputData
-    df = pd.DataFrame([data.dict()])
+    # Convert all string values to lowercase
+    data_dict_lower = {key: value.lower() if isinstance(value, str) else value for key, value in data.dict().items()}
+    
+    # Create a DataFrame using the lowercase values
+    df = pd.DataFrame([data_dict_lower])
 
     # Make predictions using the pre-trained model
     predicted_income_level = pipeline.predict(df)
@@ -65,4 +68,3 @@ def predict(data: InputData):
     # Return the prediction result in the specified format
     return PredictionResult(pprediction=prediction)
 
-    

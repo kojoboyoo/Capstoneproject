@@ -67,10 +67,12 @@ The Decision Tree model was deployed using various frameworks for interactive us
  
 1. **Streamlit App**
    - A user-friendly web app created with Streamlit for exploring predictions interactively.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/bec6286b-d98f-49a1-97ec-12ca8433a841)
+<img width="871" alt="Screenshot 2024-01-11 at 9 51 33 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/7c491e8f-4df0-4ec3-9cf3-cf691fc91e87">
+
 snapshot of code to build streamlit app
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/02d1c9ed-8dd3-4938-b050-36ed7c05e78d)
+<img width="620" alt="Screenshot 2024-01-11 at 9 53 48 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/ea443568-7f5c-4999-8da2-40fb1aa86eb6">
+
 snapshot of app
  
 ![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef945bd5-b292-46d3-98ed-ada85bb23315)

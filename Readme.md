@@ -58,7 +58,8 @@ The Decision Tree model outperformed others, achieving an accuracy of 97%.
 ## Evaluation
  
 The evaluation metrics for the Decision Tree model include accuracy, precision, recall, and F1-score. Detailed information about the model's performance can be found in the respective sections of the project.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/244891dc-c899-425d-97b9-d5f5e36bfebe)
+<img width="543" alt="Screenshot 2024-01-11 at 9 47 46 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/214a518f-49ce-4e3a-9255-ce7976a8062d">
+
  
 ## Deployment
  

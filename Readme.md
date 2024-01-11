@@ -51,7 +51,7 @@ The Decision Tree model outperformed others, achieving an accuracy of 97%.
 #### 3. Save the Model:
  
 * After training the model, save it using joblib so that it can be loaded later for predictions.
-![image](<img width="843" alt="Screenshot 2024-01-11 at 9 42 11 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/2ad21062-8413-4f7a-bb11-3219b39532ea">
+(<img width="843" alt="Screenshot 2024-01-11 at 9 42 11 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/2ad21062-8413-4f7a-bb11-3219b39532ea">
 )
  
  

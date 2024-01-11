@@ -81,7 +81,8 @@ snapshot of response message after prediction
  
 2. **Gradio App**
    - Another web app created with Gradio, providing a simple and intuitive interface for making predictions.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef68e6ed-d202-429e-bb4b-d32652d4fa24)
+<img width="717" alt="Screenshot 2024-01-11 at 10 03 35 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/3354fe7b-0804-4503-a4ce-9d89d10c7660">
+
 snapshot of code to build gradio app
  
 ![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/b8e72429-9c1f-4171-9432-0cac4ab102f5)

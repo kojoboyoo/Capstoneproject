@@ -85,7 +85,8 @@ snapshot of response message after prediction
 
 snapshot of code to build gradio app
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/b8e72429-9c1f-4171-9432-0cac4ab102f5)
+<img width="1560" alt="Screenshot 2024-01-11 at 10 12 11 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/b840f5db-9249-4313-b424-27544417506f">
+
 snapshot demonstrating performance of gradio app
  
 3. **FastAPI**

@@ -75,7 +75,8 @@ snapshot of code to build streamlit app
 
 snapshot of app
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef945bd5-b292-46d3-98ed-ada85bb23315)
+<img width="593" alt="Screenshot 2024-01-11 at 9 56 09 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/da9680c0-788e-4db1-a966-f57928f740dd">
+
 snapshot of response message after prediction
  
 2. **Gradio App**

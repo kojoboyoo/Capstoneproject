@@ -95,7 +95,8 @@ snapshot demonstrating performance of gradio app
 
 snapshot of code for building fastapi
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef9f8ccd-6099-43ae-9132-b801ef124b0f)
+<img width="1159" alt="Screenshot 2024-01-12 at 7 18 39 AM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/39128c4d-19ef-4d70-a9f7-c23f61faac02">
+
 snapsot of performance of fastapi
  
 4. **Dockerize the Application**

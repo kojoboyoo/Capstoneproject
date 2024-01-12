@@ -116,9 +116,6 @@ snapshot of dockerfile
  
 ```bash
 
-git clone https://github.com/doeabla/Income_prediction_app.git
-
-=======
 git clone https://github.com/kojoboyoo/Capstoneproject.git
 cd income-prediction
 >>>>>>> 84f1b1a4ff1dabe038ecb98d0bd84b7367f0b8bc

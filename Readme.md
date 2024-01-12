@@ -106,7 +106,7 @@ snapshot of dockerfile
  
 ```bash
 git clone https://github.com/doeabla/Income_prediction_app.git
-cd income-prediction
+
 ```
  
 - Install dependencies:

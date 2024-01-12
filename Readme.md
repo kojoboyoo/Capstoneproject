@@ -91,7 +91,8 @@ snapshot demonstrating performance of gradio app
  
 3. **FastAPI**
    - A web API built with FastAPI to serve predictions programmatically.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/f5b14c9d-3b8c-4bf4-bb12-95e104556e7e)
+<img width="1084" alt="Screenshot 2024-01-12 at 7 35 10 AM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/9d5c369a-bc53-49b1-9054-637daf3d887a">
+
 snapshot of code for building fastapi
  
 ![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef9f8ccd-6099-43ae-9132-b801ef124b0f)

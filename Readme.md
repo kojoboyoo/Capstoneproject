@@ -156,6 +156,6 @@ We extend our sincere gratitude to Azubi Africa for providing us with the invalu
  
 | Project |	Name |Streamlit_App | Gradio_App| Fast_Api|
 | ---- | -----| ----- | ----- | ----- |
-| Capstone| Income_Prediction_Project |	[Streamapp](http://localhost:8501/) | [Gradapp](https://eeaca88f56287038da.gradio.live/) | [Fast_Api](http://127.0.0.1:8000/docs#/default/predict_predict_post)|
+| Capstone| Income_Prediction_Project |	[Streamapp](http://localhost:8501) | [Gradapp](https://83c14a02c91af37eaa.gradio.live) | [Fast_Api](http://127.0.0.1:8000/docs#/default/predict_predict_post)|
  
 Find contanerized API on [Dockerhub](https://hub.docker.com/repository/docker/kojoboyoo/income_limits1/general)

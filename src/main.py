@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import os
 import pandas as pd
-from typing import Union,Optional
+
 
 # file path for saved pipeline and label encoder
 file_path_pipeline= os.path.abspath("dev/dtree_pipeline.joblib")

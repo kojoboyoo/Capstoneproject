@@ -115,7 +115,7 @@ snapshot of dockerfile
 - Clone the repository:
  
 ```bash
-git clone https://github.com/doeabla/Income_prediction_app.git
+git clone https://github.com/kojoboyoo/Capstoneproject.git
 cd income-prediction
 ```
  
@@ -126,16 +126,16 @@ pip install -r requirements.txt
 ```
 - Run the Streamlit App:
 ```bash
-streamlit run streamapp.py
+streamlit run src/streamapp.py
 ```
 - Run the Gradio App:
  
 ```bash
-python gradapp.py
+python src/gradapp.py
 ```
 - Run FastAPI:
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
  
 Access the respective URLs provided in the console for each deployment.

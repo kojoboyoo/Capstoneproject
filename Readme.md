@@ -106,7 +106,8 @@ snapsot of performance of fastapi
 * Build the Docker image.
  
 * Run the Docker container.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/302e9c75-f6c1-47a1-b476-257eec151f9d)
+<img width="886" alt="Screenshot 2024-01-12 at 7 21 00 AM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/448ba663-4480-4737-b588-4de866a480c0">
+
 snapshot of dockerfile
  
 ## Usage

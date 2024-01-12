@@ -51,13 +51,15 @@ The Decision Tree model outperformed others, achieving an accuracy of 97%.
 #### 3. Save the Model:
  
 * After training the model, save it using joblib so that it can be loaded later for predictions.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/1fbb4566-5ee1-436e-8bba-b032c470ce0d)
+(<img width="843" alt="Screenshot 2024-01-11 at 9 42 11 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/2ad21062-8413-4f7a-bb11-3219b39532ea">
+)
  
  
 ## Evaluation
  
 The evaluation metrics for the Decision Tree model include accuracy, precision, recall, and F1-score. Detailed information about the model's performance can be found in the respective sections of the project.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/244891dc-c899-425d-97b9-d5f5e36bfebe)
+<img width="543" alt="Screenshot 2024-01-11 at 9 47 46 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/214a518f-49ce-4e3a-9255-ce7976a8062d">
+
  
 ## Deployment
  
@@ -65,29 +67,36 @@ The Decision Tree model was deployed using various frameworks for interactive us
  
 1. **Streamlit App**
    - A user-friendly web app created with Streamlit for exploring predictions interactively.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/bec6286b-d98f-49a1-97ec-12ca8433a841)
+<img width="871" alt="Screenshot 2024-01-11 at 9 51 33 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/7c491e8f-4df0-4ec3-9cf3-cf691fc91e87">
+
 snapshot of code to build streamlit app
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/02d1c9ed-8dd3-4938-b050-36ed7c05e78d)
+<img width="620" alt="Screenshot 2024-01-11 at 9 53 48 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/ea443568-7f5c-4999-8da2-40fb1aa86eb6">
+
 snapshot of app
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef945bd5-b292-46d3-98ed-ada85bb23315)
+<img width="593" alt="Screenshot 2024-01-11 at 9 56 09 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/da9680c0-788e-4db1-a966-f57928f740dd">
+
 snapshot of response message after prediction
  
 2. **Gradio App**
    - Another web app created with Gradio, providing a simple and intuitive interface for making predictions.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef68e6ed-d202-429e-bb4b-d32652d4fa24)
+<img width="717" alt="Screenshot 2024-01-11 at 10 03 35 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/3354fe7b-0804-4503-a4ce-9d89d10c7660">
+
 snapshot of code to build gradio app
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/b8e72429-9c1f-4171-9432-0cac4ab102f5)
+<img width="1560" alt="Screenshot 2024-01-11 at 10 12 11 PM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/b840f5db-9249-4313-b424-27544417506f">
+
 snapshot demonstrating performance of gradio app
  
 3. **FastAPI**
    - A web API built with FastAPI to serve predictions programmatically.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/f5b14c9d-3b8c-4bf4-bb12-95e104556e7e)
+<img width="1084" alt="Screenshot 2024-01-12 at 7 35 10 AM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/9d5c369a-bc53-49b1-9054-637daf3d887a">
+
 snapshot of code for building fastapi
  
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/ef9f8ccd-6099-43ae-9132-b801ef124b0f)
+<img width="1159" alt="Screenshot 2024-01-12 at 7 18 39 AM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/39128c4d-19ef-4d70-a9f7-c23f61faac02">
+
 snapsot of performance of fastapi
  
 4. **Dockerize the Application**
@@ -97,7 +106,8 @@ snapsot of performance of fastapi
 * Build the Docker image.
  
 * Run the Docker container.
-![image](https://github.com/doeabla/Income_prediction_app/assets/137217264/302e9c75-f6c1-47a1-b476-257eec151f9d)
+<img width="886" alt="Screenshot 2024-01-12 at 7 21 00 AM" src="https://github.com/kojoboyoo/Capstoneproject/assets/137324360/448ba663-4480-4737-b588-4de866a480c0">
+
 snapshot of dockerfile
  
 ## Usage
@@ -105,8 +115,13 @@ snapshot of dockerfile
 - Clone the repository:
  
 ```bash
+
 git clone https://github.com/doeabla/Income_prediction_app.git
 
+=======
+git clone https://github.com/kojoboyoo/Capstoneproject.git
+cd income-prediction
+>>>>>>> 84f1b1a4ff1dabe038ecb98d0bd84b7367f0b8bc
 ```
  
 - Install dependencies:
@@ -116,16 +131,16 @@ pip install -r requirements.txt
 ```
 - Run the Streamlit App:
 ```bash
-streamlit run streamapp.py
+streamlit run src/streamapp.py
 ```
 - Run the Gradio App:
  
 ```bash
-python gradapp.py
+python src/gradapp.py
 ```
 - Run FastAPI:
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
  
 Access the respective URLs provided in the console for each deployment.
@@ -146,4 +161,4 @@ We extend our sincere gratitude to Azubi Africa for providing us with the invalu
 | ---- | -----| ----- | ----- | ----- |
 | Capstone| Income_Prediction_Project |	[Streamapp](http://localhost:8501/) | [Gradapp](https://eeaca88f56287038da.gradio.live/) | [Fast_Api](http://127.0.0.1:8000/docs#/default/predict_predict_post)|
  
-Find contanerized API on [Dockerhub](https://hub.docker.com/repository/docker/abladoe/income_predict/general)
+Find contanerized API on [Dockerhub](https://hub.docker.com/repository/docker/kojoboyoo/income_limits1/general)
